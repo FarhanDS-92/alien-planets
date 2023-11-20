@@ -19,7 +19,7 @@ for (let i = 0; i < alienPlanets.length; i++) {
   distance.textContent = `Distance from earth: ${alienPlanets[i].distanceFromEarth}`;
 
   let atmosphere = document.createElement("p");
-  atmosphere.textContent = `Atmospher: ${alienPlanets[i].atmosphere}`;
+  atmosphere.textContent = `Atmosphere: ${alienPlanets[i].atmosphere}`;
 
   let life = document.createElement("p");
   life.textContent = `Does it have life: ${alienPlanets[i].hasLife}`;
