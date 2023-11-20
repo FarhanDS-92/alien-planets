@@ -1,0 +1,15 @@
+#card-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
